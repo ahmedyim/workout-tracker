@@ -1,0 +1,1 @@
+// 'use server': create, update, delete, comment

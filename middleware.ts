@@ -1,0 +1,1 @@
+//cheap cookie check for /dashboard, /workouts, /reports
