@@ -1,0 +1,40 @@
+<!-- public/laytech-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="lt-brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D61C9A"/>
+      <stop offset="100%" stop-color="#6D28D9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Notebook spiral binding -->
+  <g stroke="#1A1028" stroke-width="9" stroke-linecap="round">
+    <line x1="30" y1="70" x2="50" y2="70"/>
+    <line x1="30" y1="105" x2="50" y2="105"/>
+    <line x1="30" y1="140" x2="50" y2="140"/>
+    <line x1="30" y1="175" x2="50" y2="175"/>
+  </g>
+
+  <!-- Notebook cover -->
+  <rect x="44" y="40" width="130" height="175" rx="14"
+        fill="url(#lt-brand)" stroke="#1A1028" stroke-width="7"/>
+
+  <!-- Label -->
+  <rect x="78" y="78" width="72" height="28" rx="4"
+        fill="#F3ECFB" stroke="#1A1028" stroke-width="6"/>
+
+  <!-- Circuit trace (ties to the logo) -->
+  <path d="M 90 150 H 130 V 178" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="130" cy="186" r="6" fill="#FFFFFF" stroke="#1A1028" stroke-width="3"/>
+
+  <!-- Pencil body -->
+  <rect x="200" y="56" width="26" height="134" rx="3"
+        fill="#D61C9A" stroke="#1A1028" stroke-width="6"/>
+
+  <!-- Pencil tip -->
+  <polygon points="200,56 226,56 213,26" fill="#F3ECFB" stroke="#1A1028" stroke-width="6" stroke-linejoin="round"/>
+
+  <!-- Eraser -->
+  <rect x="200" y="190" width="26" height="18" rx="3"
+        fill="#F472B6" stroke="#1A1028" stroke-width="6"/>
+</svg>
